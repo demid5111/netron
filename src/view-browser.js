@@ -389,10 +389,6 @@ host.BrowserHost = class {
     _keyHandler(e) {
         if (!e.altKey && !e.shiftKey && (e.ctrlKey || e.metaKey)) {
             switch (e.keyCode) {
-                case 70: // F
-                    this._view.find();
-                    e.preventDefault();
-                    break;
                 case 68: // D
                     this._view.toggleAttributes();
                     e.preventDefault();
