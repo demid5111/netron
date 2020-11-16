@@ -78,6 +78,8 @@ grapher.Renderer = class {
                 textContainer.setAttribute('transform', 'translate(' + edgeX + ',' + edgeY + ')');
                 edge.width = edgeBox.width;
                 edge.height = edgeBox.height;
+                edge.x = 0;
+                edge.y = 0;
                 edge.labelElement = labelElement;
             }
         }
